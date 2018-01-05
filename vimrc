@@ -3,7 +3,7 @@ set fileencodings=utf-8,gbk
 set encoding=utf-8
 
 " 配色方案
-colorscheme blue
+colorscheme desert
 
 " 语法高亮
 syntax on
@@ -13,7 +13,7 @@ set number
 
 " 设置字体，颜色主题和默认窗口大小
 if has('gui_running')
-  colorscheme blue
+  colorscheme desert
   set lines=36 columns=120
   if has('gui_win32')
     set guifont=Consolas:h11:b:cANSI:qDRAFT
