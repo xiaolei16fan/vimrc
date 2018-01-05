@@ -13,7 +13,6 @@ set number
 
 " 设置字体，颜色主题和默认窗口大小
 if has('gui_running')
-  set guioptions-=T  " no toolbar
   colorscheme blue
   set lines=36 columns=120
   if has('gui_win32')
